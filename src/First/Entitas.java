@@ -10,10 +10,10 @@ package First;
  * @author Rizard Afani
  */
 public class Entitas {
-    private String nama;
-    private String alamat;
-    private int lama;
-    private int jenis;
+     String nama;
+     String alamat;
+     int lama;
+     int jenis;
 
     /**
      * @return the nama
