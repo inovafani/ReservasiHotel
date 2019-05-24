@@ -10,11 +10,11 @@ package First;
  * @author Rizard Afani
  */
 public class Entitas {
-     String nama;
-     String alamat;
-     int lama;
-     int jenis;
-     int coba,coba1;
+     public String nama;
+     public String alamat;
+     public int lama;
+     public int jenis;
+     public int coba,coba1;
 
     /**
      * @return the nama
