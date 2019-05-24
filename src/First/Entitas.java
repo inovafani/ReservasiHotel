@@ -14,7 +14,7 @@ public class Entitas {
      public String alamat;
      public int lama;
      public int jenis;
-     public int coba,coba1,coba3;
+     public int coba,coba1,coba3,coba4;
 
     /**
      * @return the nama
