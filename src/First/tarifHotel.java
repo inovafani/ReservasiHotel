@@ -14,7 +14,7 @@ public class tarifHotel extends Entitas {
     public double diskon;
     public double bayar;
     public String kamar;//
-    public String ostatus;
+    
     
     public tarifHotel() {
     }
