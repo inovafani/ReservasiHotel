@@ -39,16 +39,16 @@ public class tarifHotel extends Entitas {
         }
         public String get_kamar(){
         if(jenis==1){
-            kamar="Deluxe";
+            kamar="Standart";
             //tarif = lama*275000;
         }  
         else if (jenis==2){
-            kamar="Suite";
-            //tarif = lama*300000;
+            kamar="Deluxe";
+            //tarif = lama*500000;
         }
         else if (jenis==3){
-            kamar="President";
-            //tarif = lama*375000;
+            kamar="Luxury";
+            //tarif = lama*700000;
         }
         else{
         }
