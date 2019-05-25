@@ -17,7 +17,7 @@ public class SewaHotelMain {
         tarifHotel pesan=new tarifHotel();
         
         pesan.setNama(JOptionPane.showInputDialog("Masukkan nama :"));
-        String msg_nama = "Selamat datang di Hotel Blowjob " + pesan.getNama();
+        String msg_nama = "Selamat datang di Hotel INALFANHA " + pesan.getNama();
         JOptionPane.showMessageDialog(null, msg_nama);
         
         
