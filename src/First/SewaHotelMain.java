@@ -20,6 +20,8 @@ public class SewaHotelMain {
         String msg_nama = "Selamat datang di Hotel INALFANHA " + pesan.getNama();
         JOptionPane.showMessageDialog(null, msg_nama);
         
+        String alamat;
+        
         
         
      }
