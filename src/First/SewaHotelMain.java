@@ -40,7 +40,11 @@ public class SewaHotelMain {
                 kmr = false;
             }
         }
-        
+        String lama = "Lama Menginap (Hari):";
+        try {
+            pesan.setLama(Integer.parseInt(JOptionPane.showInputDialog(lama)));
+        } catch (Exception e) {
+        }
         
         
      }
