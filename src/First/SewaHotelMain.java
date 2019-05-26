@@ -23,9 +23,16 @@ public class SewaHotelMain {
         String alamat;
         pesan.setAlamat(JOptionPane.showInputDialog("Masukkan alamat :"));
         
-        boolean stt=true;
-        while(stt){
-            String menu = "\nPilih Jenis Kamar\n1. Standart Rp 275.000/hari\n2. Deluxe Rp 500.000/hari\n3. Luxury Rp 700.000/hari";
+        boolean kmr=true;
+        while(kmr){
+            String kamar = "Pilih Jenis Kamar Anda :\n"+
+                    "\n1.Standart Room Rp 275.000/malam\n"+
+                    "\n2.Deluxe Room Rp 500.000/malam\n"+
+                    "\n3.Luxury Room Rp 700.000/malam\n";
+            try {
+                
+            } catch (Exception e) {
+            }
         }
         
         
