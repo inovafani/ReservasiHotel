@@ -30,7 +30,7 @@ public class SewaHotelMain {
                     "\n2.Deluxe Room Rp 500.000/malam\n"+
                     "\n3.Luxury Room Rp 700.000/malam\n";
             try {
-                
+                 pesan.setJenis(Integer.parseInt(JOptionPane.showInputDialog(kamar)));
             } catch (Exception e) {
             }
               if(pesan.getJenis()>3 || pesan.getJenis()<1){
