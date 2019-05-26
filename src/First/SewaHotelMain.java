@@ -33,6 +33,12 @@ public class SewaHotelMain {
                 
             } catch (Exception e) {
             }
+              if(pesan.getJenis()>3 || pesan.getJenis()<1){
+                JOptionPane.showMessageDialog(null, "Pilihan Input Tidak Tersedia");
+            }
+            else{
+                kmr = false;
+            }
         }
         
         
