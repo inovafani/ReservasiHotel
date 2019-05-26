@@ -11,7 +11,6 @@ package First;
  */
 public class tarifHotel extends Entitas {
     public int tarif; //
-    public double diskon;
     public double bayar;
     public String kamar;//
     
