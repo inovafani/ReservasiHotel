@@ -45,8 +45,13 @@ public class SewaHotelMain {
             pesan.setLama(Integer.parseInt(JOptionPane.showInputDialog(lama)));
         } catch (Exception e) {
         }
-        
-        
+               
+        String output = "Hasil Pemesanan\n\n"+
+                "Nama : "+pesan.getNama()+
+                "\nAlamat : "+pesan.getAlamat()+
+                "\nJenis Kamar : "+pesan.get_kamar()+
+                "\nLama Menginap : "+pesan.getLama()+" Hari"+
+                "\nTarif : "+pesan.get_tarif();
      }
     
     
