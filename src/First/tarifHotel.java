@@ -10,9 +10,9 @@ package First;
  * @author ASUS
  */
 public class tarifHotel extends Entitas {
-    public int tarif; //
+    public int tarif; 
     public double bayar;
-    public String kamar;//
+    public String kamar;
     
     
     public tarifHotel() {

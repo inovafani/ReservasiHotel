@@ -21,6 +21,12 @@ public class SewaHotelMain {
         JOptionPane.showMessageDialog(null, msg_nama);
         
         String alamat;
+        pesan.setAlamat(JOptionPane.showInputDialog("Masukkan alamat :"));
+        
+        boolean stt=true;
+        while(stt){
+            String menu = "\nPilih Jenis Kamar\n1. Standart Rp 275.000/hari\n2. Deluxe Rp 500.000/hari\n3. Luxury Rp 700.000/hari";
+        }
         
         
         
