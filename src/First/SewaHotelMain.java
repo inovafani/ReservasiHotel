@@ -52,7 +52,10 @@ public class SewaHotelMain {
                 "\nJenis Kamar : "+pesan.get_kamar()+
                 "\nLama Menginap : "+pesan.getLama()+" Hari"+
                 "\nTarif : "+pesan.get_tarif();
+     
+     try {
+            JOptionPane.showMessageDialog(null, output);
+        } catch (Exception e) {
+        }
      }
-    
-    
 }
